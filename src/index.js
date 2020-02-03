@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import WorkingWithRefs from "./components/Testing/WorkingWithRefs";
+import SimpleRouting from "./components/Routing/SimpleRouting";
 
-ReactDOM.render(<WorkingWithRefs />, document.getElementById("root"))
+ReactDOM.render(<SimpleRouting age="10"></SimpleRouting>, document.getElementById("root"))
 
 
  

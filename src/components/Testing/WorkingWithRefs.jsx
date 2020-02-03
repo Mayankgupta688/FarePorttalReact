@@ -26,7 +26,7 @@ export default class WorkingWithRefs extends React.Component {
       <>
         <h1>This is the Uncontrolled Elements for {this.state.userList.length}</h1>
         <input type="text" ref="uncontrolled" /><br/><br/>
-        <input type="button" onClick={this.updateData} value="Click To Update" />
+        <input type="button" onClick={this.updateData} value="Click To Update" /><br/><br/>
         <input type="button" onClick={this.getData} value="Click To Get Data" />
       </>
     )
