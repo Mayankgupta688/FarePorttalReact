@@ -1,9 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
-ReactDOM.render(<WorkingWithObservables></WorkingWithObservables>, document.getElementById("root"))
-
+import UseMemo from "./components/UseMemo";
 
 
-
- 
+ReactDOM.render(<UseMemo></UseMemo>, document.getElementById("root"))
